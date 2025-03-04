@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mota Content Media</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Raleway:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -12,8 +16,10 @@
         }
 
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Montserrat", sans-serif;
             line-height: 1.6;
+            font-weight: 400;
+            font-size: 16px;
         }
 
         /* Header Styles */
@@ -21,29 +27,35 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 20px;
-            background-color: #333;
+            padding: 20px 40px;
+            background-color: #2d2d2d;
             color: white;
         }
 
         .nav-menu {
             display: flex;
-            gap: 20px;
+            gap: 25px;
         }
 
         .nav-menu a {
             color: white;
             text-decoration: none;
             font-size: 16px;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            letter-spacing: 0.5px;
+            transition: color 0.3s ease;
         }
 
         .nav-menu a:hover {
-            color: #ddd;
+            color: #e0e0e0;
         }
 
         .logo {
-            font-size: 24px;
-            font-weight: bold;
+            font-size: 28px;
+            font-weight: 700;
+            font-family: "Raleway", sans-serif;
+            letter-spacing: 1px;
         }
 
         /* Hero Section */
@@ -59,7 +71,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.6);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -67,9 +79,13 @@
 
         .hero-text {
             color: white;
-            font-size: 48px;
+            font-size: 54px;
             text-align: center;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+            font-family: "Raleway", sans-serif;
+            font-weight: 700;
+            letter-spacing: 2px;
+            line-height: 1.2;
         }
     </style>
 </head>
@@ -91,9 +107,7 @@
     </section>
 
     <script>
-        // Basic JavaScript functionality can be added here
         document.addEventListener('DOMContentLoaded', () => {
-            // Add any interactive features later
             console.log('Mota Content Media page loaded');
         });
     </script>
